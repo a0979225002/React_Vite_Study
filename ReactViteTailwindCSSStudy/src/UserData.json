@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "author": {
+      "name": "Alice",
+      "avatar": "avatar1.png"
+    },
+    "content": "這是一段隨機產生的內容",
+    "publishDate": "2024-10-25"
+  },
+  {
+    "id": 2,
+    "author": {
+      "name": "Bob",
+      "avatar": "avatar2.png"
+    },
+    "content": "這是另一段隨機內容",
+    "publishDate": "2024-11-03"
+  },
+  {
+    "id": 3,
+    "author": {
+      "name": "Charlie",
+      "avatar": "avatar3.png"
+    },
+    "content": "更多隨機內容",
+    "publishDate": "2024-12-01"
+  }
+]
