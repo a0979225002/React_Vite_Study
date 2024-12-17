@@ -1,0 +1,11 @@
+
+.edit-and-delete-button{
+    flex-direction: row;
+    button{
+      color: #ffffff;
+      margin-right: 5px;
+    }
+    button:nth-child(2){
+      color: #cc0606;
+    }
+}

@@ -27,6 +27,10 @@ function GetUserClick(id: number) {
  * 獲取玩家點擊的文字
  * @param data
  */
+/**
+ * 獲取玩家點擊的文字
+ * @param data
+ */
 function getUsers(data: User[]): React.ReactElement {
     return <div>
         {/*&& 單純判斷 只有 if 沒有 else 的概念*/}
@@ -43,6 +47,9 @@ function getUsers(data: User[]): React.ReactElement {
                 backgroundColor: "#2f5152",
             }} key={user.id} onClick={GetUserClick(user.id)}>
                 <div style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
                     width: "200px",
                     height: "500px",
                     backgroundColor: "#383838",
@@ -51,6 +58,8 @@ function getUsers(data: User[]): React.ReactElement {
                     <img style={{
                         width: "100%",
                         height: "100%",
+                        borderRadius: "10px 10px", // 設置圓形效果
+                        border: "1px solid #ccc", // 添加邊框讓每條記錄更分明
                         overflow: "hidden",
                         objectFit: "cover"
                     }

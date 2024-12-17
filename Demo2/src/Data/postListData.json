@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "author": {
+      "name": "Alice",
+      "avatar": "https://gbf.wiki/images/3/37/Npc_zoom_3040284000_01.png"
+    },
+    "content": "這是一段隨機產生的內容",
+    "publishDate": "2024-10-25"
+  },
+  {
+    "id": 2,
+    "author": {
+      "name": "Bob",
+      "avatar": "https://gbf.wiki/images/3/32/Npc_zoom_3040217000_01.png"
+    },
+    "content": "這是另一段隨機內容",
+    "publishDate": "2024-11-03"
+  },
+  {
+    "id": 3,
+    "author": {
+      "name": "Charlie",
+      "avatar": "https://gbf.wiki/images/c/c8/Npc_zoom_3040556000_01.png"
+    },
+    "content": "更多隨機內容",
+    "publishDate": "2024-12-01"
+  }
+]
