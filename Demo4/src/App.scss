@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.releaseButton{
+  align-self: flex-end; /* 靠右排列 */
+}
