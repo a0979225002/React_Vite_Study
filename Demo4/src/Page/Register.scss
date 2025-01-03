@@ -1,0 +1,35 @@
+form {
+  fieldset {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+
+    legend {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    div {
+      width: 350px;
+      display: flex; /* 將每個字段設置為水平排列 */
+      align-items: center; /* 確保垂直居中 */
+      margin-bottom: 20px; /* 每個字段之間間距 */
+
+      label {
+        flex: 1; /* 標籤占據一部分空間 */
+        text-align: left; /* 確保標籤靠左對齊 */
+      }
+
+      input {
+        flex: 2; /* 輸入框占據更多空間 */
+        text-align: right; /* 內容靠右（可選） */
+      }
+
+      select {
+        flex: 2; /* 性別下拉框與 input 寬度一致 */
+      }
+    }
+  }
+}

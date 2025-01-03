@@ -14,3 +14,29 @@
 .releaseButton{
   align-self: flex-end; /* 靠右排列 */
 }
+
+.topBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+  justify-content: center;
+  gap: 20px;/* 子項之間的間距 */
+  border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  color: black;
+}
+
+/* 添加偽元素作為透明背景 */
+.topBar::before {
+  content: ""; /* 偽元素內容為空 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.32); /* 背景有透明但內容不受影響 */
+  border-radius: inherit; /* 繼承父元素圓角 */
+  z-index: -1; /* 偽元素置於內容後方 */
+}
