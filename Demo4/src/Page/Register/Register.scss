@@ -1,9 +1,14 @@
 form {
+  display: flex; /* 設置為 flex 容器，便於實現對齊 */
+  flex-direction: column; /* 垂直排列其子元素 */
+  align-items: center; /* 水平居中 */
+
   fieldset {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 50px;
+
 
     legend {
       font-size: 1.2rem;
@@ -28,9 +33,14 @@ form {
 
       select {
         text-align: center; /* 確保標籤靠左對齊 */
-        width: 50%;
-        margin: 0 auto;
+        flex: 1;
       }
+    }
+  }
+
+  div{
+    button {
+      margin-right: 20px;
     }
   }
 }
