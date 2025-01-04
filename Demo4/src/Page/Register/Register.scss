@@ -24,12 +24,19 @@ form {
 
       input {
         flex: 2; /* 輸入框占據更多空間 */
-        text-align: right; /* 內容靠右（可選） */
       }
 
       select {
-        flex: 2; /* 性別下拉框與 input 寬度一致 */
+        text-align: center; /* 確保標籤靠左對齊 */
+        width: 50%;
+        margin: 0 auto;
       }
     }
+  }
+}
+
+ul{
+  li{
+    text-align: left;
   }
 }

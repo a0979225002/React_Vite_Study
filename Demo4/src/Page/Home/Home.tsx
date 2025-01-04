@@ -1,7 +1,7 @@
-import PostListItem, {IUser} from "../components/PostListItem";
-import EditAndDeleteButton from "../components/EditAndDeleteButton";
+import PostListItem, {IUser} from "../../components/PostListItem";
+import EditAndDeleteButton from "../../components/EditAndDeleteButton";
 import * as React from "react";
-import postListData from "../Data/postListData.json";
+import postListData from "../../Data/postListData.json";
 
 
 function onCompositionStart(changeLock: (lock: boolean) => void) {
